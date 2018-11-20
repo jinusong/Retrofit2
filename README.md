@@ -1,7 +1,7 @@
 # Retrofit2
 ## Retrofit2 + oKHttp + Gson를 이용한 http api 통신 예제
 ## 소개
-* MyDaedeok 프로젝트 진행 중 retrofit2에 대한 이해도가 부족한 것 같아서 실력을 다듬고자 레포지토리 생성하였습니다.
+* 진행 중 retrofit2에 대한 이해도가 부족한 것 같아서 실력을 다듬고자 레포지토리 생성하였습니다.
 * github에 이미 올라온 예제를 중심으로 공부할 계획입니다.
 
 ## Service Interface
@@ -14,7 +14,7 @@
 
 * @GET("/posts") : 역시 GET 방식의 통신이며, http://jsonplaceholder.typicode.com/posts의 주소를 호출합니다.
 Call<List<ResponseGet>> : 이번에는 ResponseGet형식으로 된 JSON 여러개를 통신을 통해 받습니다.
-* @Query("userId") String id : getFirst와 달리 뒤에 붙는 파라미터가 없습니다. 이번 통신방식은 id에 "1"값이 들어가게 된다면 http://jsonplaceholder.typicode.com/posts?userId=1 을 호출하는 것과 같은 형태를 띄게 됩니다. 여기서 @Query Annotation은 GET방식에서만 사용가능합니다.
+* @Qu프로젝트ery("userId") String id : getFirst와 달리 뒤에 붙는 파라미터가 없습니다. 이번 통신방식은 id에 "1"값이 들어가게 된다면 http://jsonplaceholder.typicode.com/posts?userId=1 을 호출하는 것과 같은 형태를 띄게 됩니다. 여기서 @Query Annotation은 GET방식에서만 사용가능합니다.
 
 ### postFirst
 
